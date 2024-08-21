@@ -1,4 +1,3 @@
-```markdown
 # Kappi.py - Discord Nuke Botu
 
 Kappi.py, Discord sunucularında çeşitli yönetim ve temizlik işlemleri yapabilen bir bot örneğidir. Bu bot, sunuculardaki tüm kanalları ve rolleri silebilir, üyeleri banlayabilir ve yeni roller ile sesli kanallar
@@ -33,7 +32,6 @@ Kappi.py, Discord sunucularında çeşitli yönetim ve temizlik işlemleri yapab
    pkg upgrade
    pkg install python
    pkg install python-pip
-   ```
 
 3. **Gerekli Kütüphaneleri Yükleyin:**
 
