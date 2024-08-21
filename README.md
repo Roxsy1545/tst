@@ -1,11 +1,10 @@
-GitHub'da daha profesyonel ve düzenli bir `README.md` dosyası oluşturmak için aşağıdaki gibi daha kapsamlı ve estetik bir format kullanabilirsiniz:
-
 ```markdown
 # Kappi.py - Discord Nuke Botu
 
-Kappi.py, Discord sunucularında çeşitli yönetim ve temizlik işlemleri yapabilen bir bot örneğidir. Bu bot, sunuculardaki tüm kanalları ve rolleri silebilir, üyeleri banlayabilir ve yeni roller ile sesli kanallar oluşturabilir.
+Kappi.py, Discord sunucularında çeşitli yönetim ve temizlik işlemleri yapabilen bir bot örneğidir. Bu bot, sunuculardaki tüm kanalları ve rolleri silebilir, üyeleri banlayabilir ve yeni roller ile sesli kanallar
 
-![Kappi.py Banner](https://via.placeholder.com/1200x300.png?text=Kappi.py+Banner) <!-- İsteğe bağlı bir banner resmi -->
+![1000012853](https://github.com/user-attachments/assets/9d2da7e3-de17-41d3-b772-049dc2256f39)
+
 
 ## Özellikler
 
