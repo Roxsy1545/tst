@@ -20,7 +20,7 @@ Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebil
 
 1. **Termux'u Kurma:**
 
-   Termux'u [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) veya [F-Droid](https://f-droid.org/packages/com.termux/) üzerinden yükleyin.
+   Termux'u (Google Play Store)[https://play.google.com/store/apps/details?id=com.termux] veya (F-Droid)[https://f-droid.org/packages/com.termux/] üzerinden yükleyin.
 
 2. **Python ve Pip'i Yükleme:**
 
@@ -30,8 +30,7 @@ Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebil
    pkg update
    pkg upgrade
    pkg install python
-   pkg install python-pip
-   ```
+   pkg install python-pip```
 
 3. **Gerekli Kütüphaneleri Yükleme:**
 
@@ -40,6 +39,7 @@ Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebil
    ```sh
    pip install -r requirements.txt
    ```
+```
 
 4. **Kodun İndirilmesi:**
 
