@@ -1,7 +1,11 @@
+GitHub'da daha profesyonel ve düzenli bir `README.md` dosyası oluşturmak için aşağıdaki gibi daha kapsamlı ve estetik bir format kullanabilirsiniz:
+
 ```markdown
 # Kappi.py - Discord Nuke Botu
 
-Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebilen bir bot örneğidir. Bu bot, kanalları silme, roller oluşturma ve üyeleri banlama gibi işlemleri otomatik olarak yapabilir. Termux üzerinde çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
+Kappi.py, Discord sunucularında çeşitli yönetim ve temizlik işlemleri yapabilen bir bot örneğidir. Bu bot, sunuculardaki tüm kanalları ve rolleri silebilir, üyeleri banlayabilir ve yeni roller ile sesli kanallar oluşturabilir.
+
+![Kappi.py Banner](https://via.placeholder.com/1200x300.png?text=Kappi.py+Banner) <!-- İsteğe bağlı bir banner resmi -->
 
 ## Özellikler
 
@@ -18,47 +22,44 @@ Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebil
 
 ## Kurulum
 
-1. **Termux'u Kurma:**
+### Termux Kurulumu
 
-   Termux'u (Google Play Store)[https://play.google.com/store/apps/details?id=com.termux] veya (F-Droid)[https://f-droid.org/packages/com.termux/] üzerinden yükleyin.
+1. **Termux'u Yükleyin:**
+   [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) veya [F-Droid](https://f-droid.org/packages/com.termux/) üzerinden Termux'u yükleyin.
 
-2. **Python ve Pip'i Yükleme:**
-
-   Termux üzerinde Python ve Pip'i yüklemek için aşağıdaki komutları çalıştırın:
+2. **Python ve Pip'i Kurun:**
 
    ```sh
    pkg update
    pkg upgrade
    pkg install python
-   pkg install python-pip```
+   pkg install python-pip
+   ```
 
-3. **Gerekli Kütüphaneleri Yükleme:**
+3. **Gerekli Kütüphaneleri Yükleyin:**
 
-   Proje klasörünüzde `requirements.txt` dosyası bulunduğunu varsayarak, gerekli kütüphaneleri yüklemek için:
+   Proje dizininde `requirements.txt` dosyası bulunduğunu varsayarak:
 
    ```sh
    pip install -r requirements.txt
    ```
-```
 
-4. **Kodun İndirilmesi:**
-
-   Bu projeyi GitHub'dan klonlayın:
+4. **Projeyi Klonlayın:**
 
    ```sh
    git clone https://github.com/Kappi7581/Kappi.py.git
    cd Kappi.py
    ```
 
-5. **Bot Token'ınızı Ayarlama:**
+5. **Bot Token'ınızı Ayarlayın:**
 
-   Botunuzu çalıştırmak için bot token'ınızı bilmeniz gerekiyor. Token'ınızı Termux'de güvenli bir şekilde saklamayı unutmayın.
+   Bot token'ınızı almak için Discord Developer Portal'a gidin ve token'ınızı güvenli bir şekilde saklayın.
 
 ## Kullanım
 
-1. **Botu Başlatma:**
+1. **Botu Başlatın:**
 
-   Proje dizininde aşağıdaki komut ile botu başlatabilirsiniz:
+   Proje dizininde aşağıdaki komutu kullanarak botu başlatabilirsiniz:
 
    ```sh
    python kappi.py
@@ -66,23 +67,26 @@ Kappi.py, Discord sunucularını nuke (yok etme) işlemlerini gerçekleştirebil
 
 2. **Bot Token'ı ve Sunucu Bilgileri:**
 
-   İlk çalıştırmada bot token'ınızı ve nuke işlemi için gerekli bilgileri girmeniz istenecek. Token'ı ve sunucu ID'sini doğru girdiğinizden emin olun.
+   Bot çalıştığında, sizden bot token'ınızı ve nuke işlemi için gerekli bilgileri girmenizi isteyecektir. Bu bilgileri doğru girdiğinizden emin olun.
 
-3. **Botun Çalışması:**
+3. **Sunucu İşlemleri:**
 
-   Menüyü takip ederek tüm sunucuları nuke edebilir veya belirli bir sunucuyu seçebilirsiniz.
+   Bot, tüm sunucular veya belirli bir sunucu üzerinde nuke işlemi gerçekleştirebilir. Menü seçeneklerini takip ederek işlemi başlatabilirsiniz.
 
 ## Dikkat
 
-Bu botun kullanımı, Discord'un Hizmet Şartlarına ve topluluk kurallarına aykırı olabilir. Botunuzu yalnızca test ortamlarında ve yasal çerçeveler içinde kullanın. Sunuculara zarar vermek, Discord'un politikalarına göre ciddi sonuçlara yol açabilir.
+Bu botun kullanımı, Discord'un Hizmet Şartlarına ve topluluk kurallarına aykırı olabilir. Bu botu yalnızca test ortamlarında ve yasal çerçeveler içinde kullanın. Sunuculara zarar vermek, Discord'un politikalarına göre ciddi sonuçlara yol açabilir.
 
 ## Katkıda Bulunma
 
-Herhangi bir katkıda bulunmak isterseniz, lütfen bir çekme talebi oluşturun veya issue açın. Her türlü katkı memnuniyetle karşılanacaktır.
+Katkıda bulunmak isterseniz, lütfen bir çekme talebi oluşturun veya issue açın. Her türlü katkı memnuniyetle karşılanacaktır.
 
 ## Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
-```
 
-Bu `README.md` dosyası, projenizin nasıl kurulacağını ve çalıştırılacağını açıkça belirtecek ve kullanıcıların Termux ortamında botu çalıştırmasına yardımcı olacaktır. Eğer proje adı, GitHub bağlantısı veya lisans gibi bilgileri özelleştirmeniz gerekiyorsa, ilgili yerleri güncelleyebilirsiniz.
+## İletişim
+
+- **Geliştirici:** [Kappi7581](https://github.com/Kappi7581)
+- **E-posta:** example@example.com <!-- Gerçek e-posta adresinizi ekleyin -->
+```
